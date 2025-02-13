@@ -1,0 +1,156 @@
+*
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.logo img {
+    width: 200px;
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.header, .spider-man, .footer {
+    background-color: #1f2937;
+}
+
+.spider-man {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: #e5e7eb;
+    flex: 1 1 auto;
+    margin-bottom: 10px;
+}
+
+.spider-man .menace {
+    max-width: 400px;
+}
+
+.spider-man .img {
+    display: flex;
+}
+
+.spider-man img {
+    width: 300px;
+    height: auto;
+    margin-top: 50px;
+    align-self: center;
+}
+
+.title {
+    padding: 16px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.featured {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 50px;
+    padding: 16px;
+}
+
+.news {
+    flex: 0 1 auto;
+    max-width: 200px;
+}
+
+.news div {
+    font-size: 24px;
+    text-align: center;
+}
+
+.news img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.quote {
+    display: flex;
+    text-align: center;
+    background-color: #e5e7eb;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+
+}
+
+.quote p {
+    font-size: 24px;
+    color: #1f2937;
+    font-family: "light italic";
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 5px 0;
+
+}
+
+.sign-up{
+    display: flex;
+    width: max-content;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 50px auto;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.sign-up button {
+    margin-top: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: #e5e7eb;
+
+}
+
+button, .sign-up {
+    background-color: #3882f6;
+}
+
+button {
+    padding: 5px 15px;
+    border-radius: 10px;
+}
